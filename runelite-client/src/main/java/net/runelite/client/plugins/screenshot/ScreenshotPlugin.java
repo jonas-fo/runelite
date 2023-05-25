@@ -531,7 +531,7 @@ public class ScreenshotPlugin extends Plugin
 		if (config.screenshotLevels() && client.getVarbitValue(Varbits.DISABLE_LEVEL_UP_INTERFACE) == 1)
 		{
 			Matcher m = LEVEL_UP_PATTERN_2.matcher(chatMessage);
-			if(m.find())
+			if (m.find())
 			{
 				String skillName = m.group(1);
 				String skillLevel = m.group(2);
