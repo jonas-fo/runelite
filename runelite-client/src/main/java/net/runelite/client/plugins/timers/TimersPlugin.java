@@ -110,6 +110,9 @@ public class TimersPlugin extends Plugin
 	private static final String SILK_DRESSING_MESSAGE = "You quickly apply the dressing to your wounds.";
 	private static final String BLESSED_CRYSTAL_SCARAB_MESSAGE = "You crack the crystal in your hand.";
 	private static final String LIQUID_ADRENALINE_MESSAGE = "You drink some of the potion, reducing the energy cost of your special attacks.</col>";
+	private static final String DESERT_HEAT_DAMAGE_MESSAGE = "You should get a waterskin for any travelling in the desert.";
+	private static final String DESERT_HEAT_WATERSKIN_MESSAGE = "You take a drink of water.";
+	private static final String DESERT_HEAT_CIRCLET_MESSAGE = "Your circlet protects you from the desert heat.";
 
 	private static final int VENOM_VALUE_CUTOFF = -38; // Antivenom < -38 <= Antipoison < 0
 	private static final int POISON_TICK_LENGTH = 30;
